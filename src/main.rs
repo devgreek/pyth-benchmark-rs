@@ -569,7 +569,7 @@ async fn main() -> Result<()> {
     };
 
     // Define resolution
-    let resolution = "1";
+    let resolution = "1D";
 
     // Define period parameters (from 30 days ago to now)
     let now = SystemTime::now()
@@ -577,7 +577,7 @@ async fn main() -> Result<()> {
         .unwrap()
         .as_secs();
      let period_params = PeriodParams {
-        from: now - 1 * 24 * 60 * 60, // 30 days ago
+        from: now - 20 * 24 * 60 * 60, // 30 days ago
         to: now,
         first_data_request: true,
     };
