@@ -2,12 +2,13 @@
 
 [![Crates.io](https://img.shields.io/crates/v/pyth-benchmark-rs.svg)](https://crates.io/crates/pyth-benchmark-rs)
 [![Documentation](https://docs.rs/pyth-benchmark-rs/badge.svg)](https://docs.rs/pyth-benchmark-rs)
-[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](https://github.com/yourusername/pyth-benchmark-rs)
+[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](https://github.com/devgreek/pyth-benchmark-rs)
 
 A Rust client for streaming and processing price data from the Pyth Network oracle. This crate provides a robust interface for accessing real-time price data and converting it into OHLC (Open, High, Low, Close) bar data.
 
 ## 🚀 Features
 
+- **Historical Data**: Automatically fetch historical OHLC price data
 - **Real-time Price Streaming**: Connect to Pyth Network's streaming API for live price updates
 - **OHLC Bar Generation**: Automatically convert price feeds into candlestick bar data
 - **Daily Bar Aggregation**: Aggregate price data into daily time periods
